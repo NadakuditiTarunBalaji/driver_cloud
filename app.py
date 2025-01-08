@@ -46,7 +46,7 @@ def play_beep():
 # Video stream generator
 def generate_frames():
     global stop_feed
-    webcamera = cv2.VideoCapture(0)
+    webcamera = cv2.VideoCapture(1)
     drowsy_start_time = None
 
     while True:
